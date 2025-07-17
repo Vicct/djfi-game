@@ -1,0 +1,8 @@
+# Track text assets as text
+*.unity text
+*.prefab text
+
+# Track grandes formatos binarios
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
